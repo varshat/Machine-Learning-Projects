@@ -5,11 +5,6 @@ To build a Machine learning projects we need to do Dataset preparation and prepr
 
 Few ML projects implemented by me are as follows
 1) Restaurant Rating 
-2) Wafer Fault Detection
-3) Backorder prediction
-
-
-1) Restaurant Rating
 Problem Statement:
 The main goal of this project is to perform extensive Exploratory Data Analysis(EDA) on
 the Zomato Dataset and build an appropriate Machine Learning Model that will help
@@ -22,4 +17,11 @@ learning algorithms that’s best fit for the above case.
 
 Results: You have to build a solution that should able to predict the ratings of the
 restaurants listed in the dataset.
+
+
+2) Wafer Fault Detection
+3) Backorder prediction
+
+
+
 

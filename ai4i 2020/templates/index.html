@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI4I 2020</title>
+  <!-- <link href="css/Styles.css" rel="stylesheet" type="text/css" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />-->
+
+</head>
+    <div>
+        <form action="{{ url_for('predict')}}" method="post">
+
+		<div class="container">
+			<h2 align="center">AI4I 2020 Predictive Maintenance </h2>
+  			<h4 align="center">Enter following values to predict Air temperature [K] </h4>
+<!--				<div class="form-group" align="center">-->
+<!--					 <label> Process temperature [K]:</label>-->
+<!--					<input id="first" name="process" type="number "  class="form-control" >-->
+<!--				</div>-->
+<!--			<br/>-->
+<!--				<div class="form-group" align="center">-->
+<!--					<label> Heat dissipation failure (HDF):</label>-->
+<!--					<select name="hdf" id="second" required="required"  class="form-control" >-->
+<!--								<option value="0">False</option>-->
+<!--								<option value="1">True</option>-->
+<!--							</select>-->
+<!--				</div>-->
+<!--			<br/>-->
+<!--				<div class="form-group" align="center">-->
+<!--					  <button id="sub" type="submit " class="btn btn-primary">Calculate the Air temperature </button>-->
+<!--				</div>-->
+				<div class="form-group" align="center"><h3>{{ prediction_text }}</h3></div>
+        </div>
+
+        </form>
+
+
+        <!-- <div class="form-group">{{ prediction_text }}</div> -->
+    </div>
+
+</body>
+</html>
